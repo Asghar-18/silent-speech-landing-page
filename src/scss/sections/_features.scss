@@ -2,7 +2,12 @@
 // Features
 // 
 
-
+.features{
+    background-color: rgb(24, 27, 26);
+}
+.features-secondary{
+    background-color: rgb(27, 30, 31);
+}
 // Styling for the features icons
 .icon-feature {
     font-size: 4rem;
@@ -62,6 +67,9 @@
 
 }
 
+.bg-light{
+    background-color: rgb(27, 30, 31);
+}
 // Sizing for the device and SVG background circle (sm screen size breakpoint)
 @include media-breakpoint-up(sm) {
     .features-device-mockup {

@@ -24,7 +24,8 @@ html(lang='en')
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
 
-    body#page-top
+    body#page-top(style='color: white;')
+    
 
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.shadow-sm
@@ -38,9 +39,9 @@ html(lang='en')
             #navbarResponsive.collapse.navbar-collapse
                 ul.navbar-nav.ms-auto.me-4.my-3.my-lg-0
                     li.nav-item
-                        a.nav-link.me-lg-3(href='#features') Features
+                        a.nav-link.me-lg-3(href='#features',style = 'color: white;') Features
                     li.nav-item
-                        a.nav-link.me-lg-3(href='#download') Download
+                        a.nav-link.me-lg-3(href='#download',,style = 'color: white;') Download
                 
                     
 
@@ -83,7 +84,7 @@ html(lang='en')
                         img(src='assets/img/ic_launcher_round.png', alt='...', style='height: 5rem;')
 
         // App features section
-        section#features
+        section.features
             .container.px-5
                 .row.gx-5.align-items-center
                     .col-lg-8.order-lg-1.mb-5.mb-lg-0
@@ -135,7 +136,7 @@ html(lang='en')
                                             
 
         // Basic features section
-        section.bg-light
+        section.features-secondary
             .container.px-5
                 .row.gx-5.align-items-center.justify-content-center.justify-content-lg-between
                     .col-12.col-lg-6
